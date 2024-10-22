@@ -1,0 +1,25 @@
+{
+  "name": "nodegeoapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^8.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
