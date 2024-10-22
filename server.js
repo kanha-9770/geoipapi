@@ -2,7 +2,7 @@ const express = require("express");
 const geoip = require("geoip-lite");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port =  8000;
 
 app.get("/", (req, res) => {
   res.send("products api running new deploy");
